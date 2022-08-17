@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD151C95-9CFC-4777-8CE2-C907638AF3E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AndriodOS.My.MyApplication</StartupObject>
+    <RootNamespace>AndriodOS</RootNamespace>
+    <AssemblyName>AndriodOS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AndriodOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AndriodOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrowserApp.Designer.vb">
+      <DependentUpon>BrowserApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuggyAd.Designer.vb">
+      <DependentUpon>LuggyAd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LuggyAd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SettingsApp.Designer.vb">
+      <DependentUpon>SettingsApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShutDownDialog.Designer.vb">
+      <DependentUpon>ShutDownDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShutDownDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Win93App.Designer.vb">
+      <DependentUpon>Win93App.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Win93App.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BrowserApp.resx">
+      <DependentUpon>BrowserApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LuggyAd.resx">
+      <DependentUpon>LuggyAd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsApp.resx">
+      <DependentUpon>SettingsApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShutDownDialog.resx">
+      <DependentUpon>ShutDownDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Win93App.resx">
+      <DependentUpon>Win93App.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Andriod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YourAndriodIsInPain.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallPepper1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallPepper2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallPepper3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallPepper4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallPepper5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ItsNotFinePLSHelpMe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PWROff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Airplane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PWRBTNs1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PWRBTNs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wi-Fi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bluetooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataUsage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Storage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notification.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReassuringSoundOfConfirmationThatYouDidIndeedTapTheButtonThatYouThoughtYouTappedHopefullyIfTheDigitizerDidItsJobAlright.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlightMode_status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuggyAd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuggyAdAud.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window93.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

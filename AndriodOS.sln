@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AndriodOS", "AndriodOS\AndriodOS.vbproj", "{CD151C95-9CFC-4777-8CE2-C907638AF3E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD151C95-9CFC-4777-8CE2-C907638AF3E8}.Debug|x86.ActiveCfg = Debug|x86
+		{CD151C95-9CFC-4777-8CE2-C907638AF3E8}.Debug|x86.Build.0 = Debug|x86
+		{CD151C95-9CFC-4777-8CE2-C907638AF3E8}.Release|x86.ActiveCfg = Release|x86
+		{CD151C95-9CFC-4777-8CE2-C907638AF3E8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
